@@ -12,11 +12,11 @@ app = dash.Dash(__name__)
 
 app.layout = html.Div(
     children=[
-        html.H1(children="Avocado Analytics",),
+        html.H1(children="Avocado Analytics 2",),
         html.P(
             children="Analyze the behavior of avocado prices"
             " and the number of avocados sold in the US"
-            " between 2015 and 2018",
+            " between 2015 and 2022",
         ),
         dcc.Graph(
             figure={
